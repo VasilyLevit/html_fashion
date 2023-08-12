@@ -9,21 +9,29 @@ body {
     font-family: Lato;
 }
 
+.center {
+    width: 1600px;
+    margin: 0 auto;
+}
+
 .header {
-    max-width: 1600px;
     height: 75px;
     background-color: #222;
-    /* display: flex;
-    justify-content: space-between;   */
+    display: flex;
+    justify-content: space-between;
 }
 /* .logo {
     width: 111px;
     display: flex;
     justify-content: space-between;
 } */
-.logo_header {
-    margin-top: 18px;
+
+.left_part_header {
+    margin-top: 18px; 
     margin-left: 231px;
+}
+
+.logo_header {    
     margin-right: 46px;
 }
 
@@ -33,11 +41,10 @@ body {
 }
 
 .button_menu {
-    margin-left: 859px;
+    margin-right: 240px;
 }
 
-.face {
-    max-width: 1600px;
+.face {    
     background-color: #F1E4E6;
     display: flex;
     justify-content:flex-start;
@@ -47,7 +54,7 @@ body {
     width: 405px;
     height: 93px;
     margin-left: 63px;
-    margin-top: 290px;
+    margin-top: 290px; 
     display: flex;
     justify-content:flex-start;
     gap: 16px;
@@ -69,7 +76,6 @@ body {
 }
 
 .offer {
-    width: 1600px;
     padding-top: 65px;
     padding-bottom: 96px;
     display: grid;
@@ -87,7 +93,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(33, 22, 22, 0.70);        
+    background-color: rgba(33, 22, 22, 0.70);
     top: 0;
 }
 
@@ -122,7 +128,6 @@ body {
 }
 
 .products {
-    width: 1600px;
     margin-bottom: 48px;
 }
 
@@ -188,7 +193,6 @@ body {
 }
 
 .footer {
-    width: 1600px;
     padding-bottom: 60px;
 }
 
@@ -203,3 +207,61 @@ body {
     background: none;
 }
 
+@media (max-width: 1024px) {
+    .center {
+        width: 768px;
+    }
+    .left_part_header {
+        margin-left: 32px;
+    }
+    .button_menu {
+        margin-right: 32px;
+    }
+    .face_photo {
+        width: 386px;
+    }
+    .face_content {
+        width: 311px;
+        height: 92px;
+        margin-left: 39px;
+        margin-top: 138px; 
+    }
+    .text_one {        
+        font-size: 44px;
+        font-weight: 900;
+    }
+    
+    .text_two {    
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .offer {
+        padding-bottom: 96px;
+        grid-template-columns: repeat(3, 232px);
+        grid-template-rows: 168px;
+        gap: 20px;
+    }
+    .item_image {
+        /* Уменьшаем картинки до размера поля */
+        width: 100%;
+    }
+    .item_text_block {
+        padding-top: 65px;
+    }
+    .item4 {
+        width: 735px;
+        height: 116px;    
+    }
+    .item_image4 {
+        width: 735px;
+    }
+    .item4_text {
+        padding-top: 33px;
+        width: 737px;
+    }
+    .product_items {
+        margin-top: 72px;
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;
+    }
+}
