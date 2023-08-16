@@ -26,7 +26,8 @@ body {
     justify-content: space-between;
 } */
 
-.left_part_header {
+.left_header {
+    /* левый блок в header с логотипом и кнопкой поиска*/
     margin-top: 18px; 
     margin-left: 231px;
 }
@@ -34,14 +35,20 @@ body {
 .logo_header {    
     margin-right: 46px;
 }
-
+.right_header {
+    /* правый блок кнопок в header */
+    margin-top: 26px;
+    margin-right: 240px;
+}
 .button_header {    
     background-color: #222;
     border: none;
 }
-
-.button_menu {
-    margin-right: 240px;
+.button_person {
+    margin-left: 25px;
+}
+.button_trash {
+    margin-left: 25px;
 }
 
 .face {    
@@ -211,12 +218,16 @@ body {
     .center {
         width: 768px;
     }
-    .left_part_header {
+    .left_header {
         margin-left: 32px;
     }
-    .button_menu {
-        margin-right: 32px;
+    .right_header {
+        margin-right: 41px;
     }
+    .button_trash {
+        margin-left: 42px;
+    }
+    
     .face_photo {
         width: 386px;
     }
@@ -270,12 +281,19 @@ body {
     .center {
         width: 375px;
     }
-    .left_part_header {
+    .left_header {
         margin-left: 16px;
     }
-    .button_menu {
+    .right_header {
         margin-right: 16px;
     }
+    .button_person {
+        
+    }
+    .button_trash {
+        
+    }
+
     .face_photo {
         width: 0;
     }
