@@ -288,10 +288,14 @@ body {
         margin-right: 16px;
     }
     .button_person {
-        
+        margin-left: 0;
+        width: 0;
+        visibility: hidden;
     }
     .button_trash {
-        
+        margin-left: 0;
+        width: 0;
+        visibility: hidden;
     }
 
     .face_photo {
