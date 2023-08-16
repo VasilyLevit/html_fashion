@@ -281,10 +281,14 @@ body {
     .center {
         width: 375px;
     }
+    .header {
+        height: 74px;
+    }
     .left_header {
         margin-left: 16px;
     }
-    .right_header {
+    .right_header {  
+        margin-top: 25px;      
         margin-right: 16px;
     }
     .button_person {
