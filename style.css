@@ -199,11 +199,11 @@ body {
     font-weight: 400;
 }
 
-.footer {
+.button_box {
     padding-bottom: 60px;
 }
 
-.button_footer {
+.button_browse {
     display: block;    
     margin: 0 auto;
     color: #F26376;
@@ -213,6 +213,105 @@ body {
     border-color: #FF6A6A;
     background: none;
 }
+
+.services {
+    margin-top: 95px;
+    height: 341px;
+    background: #222224;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 30px;
+}
+.service {
+    width: 360px;
+    height: 134px;
+    color: #FBFBFB;
+    text-align: center;
+}
+
+.title_service {
+    margin-top: 19px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.text_service {
+    margin-top: 16px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+.subscribe {
+    height: 448px;
+    background-image: url(img/photo_subs.svg);
+    display: flex;
+    text-align: center;
+}
+
+.info_subs {
+    width: 360px;
+    height: 225px;
+    margin-top: 97px;
+    margin-left: 228px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.text_info_subs {
+    color: #222224;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.form_subs {
+    width: 557px;
+    height: 142px;
+    margin-top: 150px;
+    margin-left: 223px;
+}
+.form_subs_title {
+    color: #222224;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px
+}
+.form_subs_text {
+    color: #222224;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+
+.footer {
+    height: 79px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #222224;
+}
+.license_text {
+    width: 332px;
+    margin-left: 235px;
+    color: #FBFBFB;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.social_icon {
+    /* блок ссылок на социальные сети */
+    width: 148px;
+    margin-left: 655px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 @media (max-width: 1024px) {
     .center {
