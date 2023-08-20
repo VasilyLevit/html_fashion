@@ -295,6 +295,7 @@ body {
     border: none; 
     border-top-left-radius: 24px;
     border-bottom-left-radius: 24px;
+    padding-left: 22px;
 }
 .button_subs {
     width: 100px;
@@ -401,14 +402,14 @@ body {
         height: 614px;
         flex-direction: column;
         align-items: center;
+        background-position: center bottom;
+        background-repeat: no-repeat;
     }
     .info_subs {
         margin-top: 64px;
         margin-left: 0;
     }
-    /* .image_subs {
-        height: 100%;
-    } */
+
     .form_subs {
         margin-top: 48px;
         margin-left: 0;
@@ -509,6 +510,8 @@ body {
     }
     .subscribe {
         height: 550px;
+        background-position: center bottom;
+        background-repeat: no-repeat;
     }
     .text_info_subs {
         font-size: 18px;
@@ -527,6 +530,16 @@ body {
     .form_subs_fild {
         margin-top: 22px;
     }
+
+    .fild_subs {
+        width: 245px;
+        height: 47px;
+    }
+    .button_subs {
+        width: 96px;
+        height: 47px;
+    }
+    
 
     .footer {
         height: 143px;
