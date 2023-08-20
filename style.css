@@ -20,11 +20,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-/* .logo {
-    width: 111px;
-    display: flex;
-    justify-content: space-between;
-} */
 
 .left_header {
     /* левый блок в header с логотипом и кнопкой поиска*/
@@ -215,6 +210,7 @@ body {
 }
 
 .services {
+    /* Секция сервисов */
     margin-top: 95px;
     height: 341px;
     background: #222224;
@@ -242,7 +238,9 @@ body {
     font-size: 14px;
     line-height: 17px;
 }
+
 .subscribe {
+    /* Секция "Подписка" */
     height: 448px;
     background-image: url(img/photo_subs.svg);
     display: flex;
@@ -284,18 +282,34 @@ body {
     font-weight: 400;
     line-height: 40px;
 }
-
-
+.form_subs_fild {
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+.fild_subs {
+    width: 256px;
+    height: 49px;
+    background: #E1E1E1;
+    border: none; 
+}
+.button_subs {
+    width: 100px;
+    height: 49px;
+    background: #F16D7F;
+    color: #FFF;
+    border: none;
+}
 
 .footer {
     height: 79px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     background: #222224;
 }
 .license_text {
-    width: 332px;
     margin-left: 235px;
     color: #FBFBFB;
     font-size: 16px;
@@ -306,7 +320,7 @@ body {
 .social_icon {
     /* блок ссылок на социальные сети */
     width: 148px;
-    margin-left: 655px;
+    margin-right: 230px;
     display: flex;
     justify-content: space-between;
 }
@@ -388,9 +402,27 @@ body {
         margin-top: 64px;
         margin-left: 0;
     }
+    /* .image_subs {
+        height: 100%;
+    } */
     .form_subs {
         margin-top: 48px;
         margin-left: 0;
+    }
+    .form_subs_title {
+        line-height: 39px
+    }
+    .form_subs_fild {
+        margin-top: 27px;
+    }
+
+    .license_text {
+        margin-left: 32px;
+    }
+    
+    .social_icon {
+        /* блок ссылок на социальные сети */
+        margin-right: 32px;
     }
 }
 
@@ -470,5 +502,39 @@ body {
     .product_items {
         margin-top: 65px;
         grid-template-columns: repeat(1, 360px);
+    }
+    .subscribe {
+        height: 550px;
+    }
+    .text_info_subs {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .form_subs {
+        margin-top: 59px;
+    }
+    .form_subs_title {
+        line-height: 37px
+    }
+    .form_subs_text {
+        font-size: 14px;
+        line-height: 153%;
+    }
+    .form_subs_fild {
+        margin-top: 22px;
+    }
+
+    .footer {
+        height: 143px;
+        flex-direction: column-reverse;
+    }
+    .license_text {
+        margin-left: 0;
+        margin-bottom: 9px;
+    }
+    .social_icon {
+        /* блок ссылок на социальные сети */
+        margin-right: 0;
+        margin-top: 43px;        
     }
 }
