@@ -293,6 +293,8 @@ body {
     height: 49px;
     background: #E1E1E1;
     border: none; 
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
 }
 .button_subs {
     width: 100px;
@@ -300,6 +302,8 @@ body {
     background: #F16D7F;
     color: #FFF;
     border: none;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
 }
 
 .footer {
